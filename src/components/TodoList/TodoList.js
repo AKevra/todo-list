@@ -1,7 +1,7 @@
 import React from 'react';
-import TodoListItem from './TodoListItem';
+import TodoListItem from '../TodoListItem';
+import './TodoList.css';
 const TodoList = (props) => {
-    const items = ['Learn HTMl','Learn CSS','Learn react']
   const elements = props.todos.map((item) => {
 
     const {id,...otherProps } = item;
