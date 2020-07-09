@@ -1,11 +1,12 @@
 import React from 'react';
-import './SearchBlock.css';
+import './SearchBlock.css'
+
 const SearchBlock = () => {
-    const searchText = 'enter what are you want';
+    const searchText = 'Search';
     return (
-    <div className ='SearchBlock'> 
-        <input className='form-control' disapled placeholder={searchText}/>
-    </div>
-    );
+    <div className="SearchBlock">
+        <input className="form-control" placeholder = {searchText}
+    /></div>);
 }
+
 export default SearchBlock;
